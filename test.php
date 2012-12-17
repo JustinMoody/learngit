@@ -1,7 +1,14 @@
 <?php 
-  // Setup Variable
+  // Get and display day of the week
   $day = date('l', time());
 
-  echo 'Today is '.$day;
+  echo '<p>Today is '.$day.'</p>';
+
+  // Put in some more code.
+  for($i = 1; $i <= 10; $i++)
+  {
+  	echo $i.(($i < 10) ? '<br />': '');
+  }
+
 
 ?>
